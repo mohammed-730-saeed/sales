@@ -1,0 +1,1024 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B1786FCA-D099-4D91-B4AC-7FB1526D4896}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sales_Managment_System.My.MyApplication</StartupObject>
+    <RootNamespace>Sales_Managment_System</RootNamespace>
+    <AssemblyName>Sales Managment System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Sales Managment System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Sales Managment System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Sales Managment System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Sales Managment System.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>C:\Users\Mohammed\Downloads\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Word">
+      <HintPath>..\..\GTS Sales System\GTS Sales System\bin\Debug\Interop.Word.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.ConnectionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.Management.Sdk.Sfc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Smo, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.Smo.dll</HintPath>
+    </Reference>
+    <Reference Include="MSwordDllFiles">
+      <HintPath>..\..\GTS Sales System\GTS Sales System\bin\Debug\MSwordDllFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="TouchlessLib">
+      <HintPath>E:\old computer\Visual Studio 2010\Projects\School Managment System\School Managment System\bin\Debug\TouchlessLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="forms\Add_Cat.Designer.vb">
+      <DependentUpon>Add_Cat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Add_Cat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Add_Customer.Designer.vb">
+      <DependentUpon>Add_Customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Add_Customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Add_Emp.Designer.vb">
+      <DependentUpon>Add_Emp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Add_Emp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Add_Exp.Designer.vb">
+      <DependentUpon>Add_Exp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Add_Exp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Add_Importer.Designer.vb">
+      <DependentUpon>Add_Importer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Add_Importer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Add_Product.Designer.vb">
+      <DependentUpon>Add_Product.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Add_Product.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Add_Unit.Designer.vb">
+      <DependentUpon>Add_Unit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Add_Unit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Aqsat_Inv.Designer.vb">
+      <DependentUpon>Aqsat_Inv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Aqsat_Inv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Aqsat_Manage.Designer.vb">
+      <DependentUpon>Aqsat_Manage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Aqsat_Manage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\AQsat_Report.Designer.vb">
+      <DependentUpon>AQsat_Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\AQsat_Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Buy_Inv.Designer.vb">
+      <DependentUpon>Buy_Inv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Buy_Inv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\CustomerList.Designer.vb">
+      <DependentUpon>CustomerList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\CustomerList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Customer_Move.Designer.vb">
+      <DependentUpon>Customer_Move.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Customer_Move.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Edit_Cat.Designer.vb">
+      <DependentUpon>Edit_Cat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Edit_Cat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Edit_Customer.Designer.vb">
+      <DependentUpon>Edit_Customer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Edit_Customer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Edit_Emp.Designer.vb">
+      <DependentUpon>Edit_Emp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Edit_Emp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Edit_Importer.Designer.vb">
+      <DependentUpon>Edit_Importer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Edit_Importer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Edit_Product.Designer.vb">
+      <DependentUpon>Edit_Product.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Edit_Product.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Edit_Unit.Designer.vb">
+      <DependentUpon>Edit_Unit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Edit_Unit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\frmSplash.Designer.vb">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\frmSplash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Add_Aqsat.Designer.vb">
+      <DependentUpon>Frm_Add_Aqsat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Add_Aqsat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Camera.Designer.vb">
+      <DependentUpon>Frm_Camera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Camera.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Cat.Designer.vb">
+      <DependentUpon>Frm_Cat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Cat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Customers.designer.vb">
+      <DependentUpon>Frm_Customers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Customers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Dep.Designer.vb">
+      <DependentUpon>Frm_Dep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Dep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Emp.Designer.vb">
+      <DependentUpon>Frm_Emp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Emp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Exp.Designer.vb">
+      <DependentUpon>Frm_Exp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Exp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Importers.Designer.vb">
+      <DependentUpon>Frm_Importers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Importers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Job.Designer.vb">
+      <DependentUpon>Frm_Job.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Job.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Login.Designer.vb">
+      <DependentUpon>Frm_Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Manage_Buy_Inv.Designer.vb">
+      <DependentUpon>Frm_Manage_Buy_Inv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Manage_Buy_Inv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Paid_Qast.Designer.vb">
+      <DependentUpon>Frm_Paid_Qast.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Paid_Qast.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Paid_Sand.Designer.vb">
+      <DependentUpon>Frm_Paid_Sand.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Paid_Sand.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Products.Designer.vb">
+      <DependentUpon>Frm_Products.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Products.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Receipt.Designer.vb">
+      <DependentUpon>Frm_Receipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Receipt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Salary.Designer.vb">
+      <DependentUpon>Frm_Salary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Salary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Sale_Inv_Manage.Designer.vb">
+      <DependentUpon>Frm_Sale_Inv_Manage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Sale_Inv_Manage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Select_Inv.Designer.vb">
+      <DependentUpon>Frm_Select_Inv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Select_Inv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Sql_Setting.Designer.vb">
+      <DependentUpon>Frm_Sql_Setting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Sql_Setting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Store.Designer.vb">
+      <DependentUpon>Frm_Store.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Store.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Tax.Designer.vb">
+      <DependentUpon>Frm_Tax.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Tax.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Unit.Designer.vb">
+      <DependentUpon>Frm_Unit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Unit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Frm_Users.Designer.vb">
+      <DependentUpon>Frm_Users.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Frm_Users.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\ImportersList.Designer.vb">
+      <DependentUpon>ImportersList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\ImportersList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Importers_Move.Designer.vb">
+      <DependentUpon>Importers_Move.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Importers_Move.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Re_Buy_Inv.Designer.vb">
+      <DependentUpon>Re_Buy_Inv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Re_Buy_Inv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Re_Sale_Inv.Designer.vb">
+      <DependentUpon>Re_Sale_Inv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Re_Sale_Inv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Sale_Inv.Designer.vb">
+      <DependentUpon>Sale_Inv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Sale_Inv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Show_Aqsat_Details.Designer.vb">
+      <DependentUpon>Show_Aqsat_Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Show_Aqsat_Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Show_Aqsat_Info.Designer.vb">
+      <DependentUpon>Show_Aqsat_Info.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Show_Aqsat_Info.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Show_Buy_Inv.Designer.vb">
+      <DependentUpon>Show_Buy_Inv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Show_Buy_Inv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Show_Pic.Designer.vb">
+      <DependentUpon>Show_Pic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Show_Pic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Show_Sale_Inv.Designer.vb">
+      <DependentUpon>Show_Sale_Inv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Show_Sale_Inv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Stock\Add_Stcok.Designer.vb">
+      <DependentUpon>Add_Stcok.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Stock\Add_Stcok.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Stock\Bank_In.Designer.vb">
+      <DependentUpon>Bank_In.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Stock\Bank_In.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Stock\Bank_IN_Rep.Designer.vb">
+      <DependentUpon>Bank_IN_Rep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Stock\Bank_IN_Rep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Stock\Bank_Out.Designer.vb">
+      <DependentUpon>Bank_Out.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Stock\Bank_Out.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Stock\Bank_Out_Rep.Designer.vb">
+      <DependentUpon>Bank_Out_Rep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Stock\Bank_Out_Rep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Stock\Stock_Bank_Rep.Designer.vb">
+      <DependentUpon>Stock_Bank_Rep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Stock\Stock_Bank_Rep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Stock\Stock_In.Designer.vb">
+      <DependentUpon>Stock_In.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Stock\Stock_In.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Stock\Stock_IN_Rep.Designer.vb">
+      <DependentUpon>Stock_IN_Rep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Stock\Stock_IN_Rep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Stock\Stock_Out.Designer.vb">
+      <DependentUpon>Stock_Out.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Stock\Stock_Out.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Stock\Stock_OUT_Rep.Designer.vb">
+      <DependentUpon>Stock_OUT_Rep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Stock\Stock_OUT_Rep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Stock\Stock_To_Bank.Designer.vb">
+      <DependentUpon>Stock_To_Bank.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Stock\Stock_To_Bank.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Stock\Stock_To_Stock.Designer.vb">
+      <DependentUpon>Stock_To_Stock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Stock\Stock_To_Stock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Stock\Stock_To_Stock_Rep.Designer.vb">
+      <DependentUpon>Stock_To_Stock_Rep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Stock\Stock_To_Stock_Rep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="models\Connection_mod.vb" />
+    <Compile Include="models\Main_Mod.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="forms\Today_Aqsat.Designer.vb">
+      <DependentUpon>Today_Aqsat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Today_Aqsat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="forms\Add_Cat.resx">
+      <DependentUpon>Add_Cat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Add_Customer.resx">
+      <DependentUpon>Add_Customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Add_Emp.resx">
+      <DependentUpon>Add_Emp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Add_Exp.resx">
+      <DependentUpon>Add_Exp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Add_Importer.resx">
+      <DependentUpon>Add_Importer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Add_Product.resx">
+      <DependentUpon>Add_Product.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Add_Unit.resx">
+      <DependentUpon>Add_Unit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Aqsat_Inv.resx">
+      <DependentUpon>Aqsat_Inv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Aqsat_Manage.resx">
+      <DependentUpon>Aqsat_Manage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\AQsat_Report.resx">
+      <DependentUpon>AQsat_Report.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Buy_Inv.resx">
+      <DependentUpon>Buy_Inv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\CustomerList.resx">
+      <DependentUpon>CustomerList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Customer_Move.resx">
+      <DependentUpon>Customer_Move.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Edit_Cat.resx">
+      <DependentUpon>Edit_Cat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Edit_Customer.resx">
+      <DependentUpon>Edit_Customer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Edit_Emp.resx">
+      <DependentUpon>Edit_Emp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Edit_Importer.resx">
+      <DependentUpon>Edit_Importer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Edit_Product.resx">
+      <DependentUpon>Edit_Product.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Edit_Unit.resx">
+      <DependentUpon>Edit_Unit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\frmSplash.resx">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Add_Aqsat.resx">
+      <DependentUpon>Frm_Add_Aqsat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Camera.resx">
+      <DependentUpon>Frm_Camera.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Cat.resx">
+      <DependentUpon>Frm_Cat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Customers.resx">
+      <DependentUpon>Frm_Customers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Dep.resx">
+      <DependentUpon>Frm_Dep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Emp.resx">
+      <DependentUpon>Frm_Emp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Exp.resx">
+      <DependentUpon>Frm_Exp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Importers.resx">
+      <DependentUpon>Frm_Importers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Job.resx">
+      <DependentUpon>Frm_Job.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Login.resx">
+      <DependentUpon>Frm_Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Manage_Buy_Inv.resx">
+      <DependentUpon>Frm_Manage_Buy_Inv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Paid_Qast.resx">
+      <DependentUpon>Frm_Paid_Qast.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Paid_Sand.resx">
+      <DependentUpon>Frm_Paid_Sand.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Products.resx">
+      <DependentUpon>Frm_Products.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Receipt.resx">
+      <DependentUpon>Frm_Receipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Salary.resx">
+      <DependentUpon>Frm_Salary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Sale_Inv_Manage.resx">
+      <DependentUpon>Frm_Sale_Inv_Manage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Select_Inv.resx">
+      <DependentUpon>Frm_Select_Inv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Sql_Setting.resx">
+      <DependentUpon>Frm_Sql_Setting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Store.resx">
+      <DependentUpon>Frm_Store.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Tax.resx">
+      <DependentUpon>Frm_Tax.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Unit.resx">
+      <DependentUpon>Frm_Unit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Frm_Users.resx">
+      <DependentUpon>Frm_Users.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\ImportersList.resx">
+      <DependentUpon>ImportersList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Importers_Move.resx">
+      <DependentUpon>Importers_Move.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Re_Buy_Inv.resx">
+      <DependentUpon>Re_Buy_Inv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Re_Sale_Inv.resx">
+      <DependentUpon>Re_Sale_Inv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Sale_Inv.resx">
+      <DependentUpon>Sale_Inv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Show_Aqsat_Details.resx">
+      <DependentUpon>Show_Aqsat_Details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Show_Aqsat_Info.resx">
+      <DependentUpon>Show_Aqsat_Info.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Show_Buy_Inv.resx">
+      <DependentUpon>Show_Buy_Inv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Show_Pic.resx">
+      <DependentUpon>Show_Pic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Show_Sale_Inv.resx">
+      <DependentUpon>Show_Sale_Inv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Stock\Add_Stcok.resx">
+      <DependentUpon>Add_Stcok.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Stock\Bank_In.resx">
+      <DependentUpon>Bank_In.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Stock\Bank_IN_Rep.resx">
+      <DependentUpon>Bank_IN_Rep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Stock\Bank_Out.resx">
+      <DependentUpon>Bank_Out.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Stock\Bank_Out_Rep.resx">
+      <DependentUpon>Bank_Out_Rep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Stock\Stock_Bank_Rep.resx">
+      <DependentUpon>Stock_Bank_Rep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Stock\Stock_In.resx">
+      <DependentUpon>Stock_In.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Stock\Stock_IN_Rep.resx">
+      <DependentUpon>Stock_IN_Rep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Stock\Stock_Out.resx">
+      <DependentUpon>Stock_Out.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Stock\Stock_OUT_Rep.resx">
+      <DependentUpon>Stock_OUT_Rep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Stock\Stock_To_Bank.resx">
+      <DependentUpon>Stock_To_Bank.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Stock\Stock_To_Stock.resx">
+      <DependentUpon>Stock_To_Stock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Stock\Stock_To_Stock_Rep.resx">
+      <DependentUpon>Stock_To_Stock_Rep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Today_Aqsat.resx">
+      <DependentUpon>Today_Aqsat.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\x-mark-3-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-4-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-11-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-property-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel-3-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\microsoft-word-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit-2-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1420853324_Look.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-6-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save-32_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit-2-32_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open-in-browser-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-5-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit-11-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel-3-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\microsoft-word-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flat_seo-30-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save-322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit-2-322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open-in-browser-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\webcam-2-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\webcam-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administrator-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-6-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lorrygreen1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users_two_481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sales-by-payment-method-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shop-cart-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings-5-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Turbo32o80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2816%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Find_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SalesPeriodMonth_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bundle-48x48x32b1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AssignToMe_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bundle-48x48x32b2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users_two_482.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_add_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_save_32px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_edit_property_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_delete_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_eye_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_category_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_estimate_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1 %2816%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1420847041_shoping_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1420847462_to_do_list_cheked_all.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bundle-32x32x32b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apply_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bundle-32x32x32b1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\711804-637274003765481175-16x9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ICON.ICO" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

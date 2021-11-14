@@ -1,0 +1,83 @@
+c:\users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\bin\Debug\Sales Managment System.exe
+c:\users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\bin\Debug\Sales Managment System.pdb
+c:\users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\bin\Debug\Sales Managment System.xml
+c:\users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Cat.resources
+c:\users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Home.resources
+c:\users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Resources.resources
+c:\users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales Managment System.vbproj.GenerateResource.Cache
+c:\users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales Managment System.exe
+c:\users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales Managment System.xml
+c:\users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales Managment System.pdb
+c:\users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.add_cat.resources
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Edit_Cat.resources
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\bin\Debug\MSwordDllFiles.dll
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Unit.resources
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Add_Unit.resources
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Edit_Unit.resources
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Add_Product.resources
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Products.resources
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Edit_Product.resources
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales Managment System.vbprojResolveAssemblyReference.cache
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Show_Pic.resources
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\bin\Debug\TouchlessLib.dll
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Add_Customer.resources
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Camera.resources
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Customers.resources
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Edit_Customer.resources
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Add_Importer.resources
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Edit_Importer.resources
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Importers.resources
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Buy_Inv.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Tax.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Manage_Buy_Inv.resources
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Store.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Show_Buy_Inv.resources
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Select_Inv.resources
+C:\Users\gts\documents\visual studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Re_Buy_Inv.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Sale_Inv.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Sale_Inv_Manage.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\bin\Debug\MetroFramework.dll
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Show_Sale_Inv.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Re_Sale_Inv.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.CustomerList.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Paid_Sand.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Receipt.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.ImportersList.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Customer_Move.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Importers_Move.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Add_Exp.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Exp.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Add_Emp.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Dep.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Emp.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Job.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Edit_Emp.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Salary.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Add_Stcok.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Stock_To_Bank.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Stock_In.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Bank_In.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Stock_Out.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Bank_Out.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Stock_IN_Rep.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Stock_OUT_Rep.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Bank_Out_Rep.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Stock_To_Stock.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Bank_IN_Rep.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Stock_Bank_Rep.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Stock_To_Stock_Rep.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Aqsat_Inv.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Add_Aqsat.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Aqsat_Manage.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Show_Aqsat_Info.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Show_Aqsat_Details.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Paid_Qast.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.AQsat_Report.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Today_Aqsat.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Users.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Login.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.Frm_Sql_Setting.resources
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\bin\Debug\Sales Managment System.exe.config
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\bin\Debug\MetroFramework.Design.dll
+C:\Users\gts\Documents\Visual Studio 2010\Projects\Sales Managment System\Sales Managment System\obj\x86\Debug\Sales_Managment_System.frmSplash.resources
